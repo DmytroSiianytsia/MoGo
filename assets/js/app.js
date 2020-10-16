@@ -45,6 +45,11 @@ $(function() {
     $('#nav').toggleClass('active')
   })
 
+  $('#nav a').on('click', function() {
+    $('#nav').toggleClass('active')
+    $('#nav_toggle').toggleClass('active')
+  })
+
   /* Accordion collapse */
   $('[data-collapse').on('click', function(event) {
     event.preventDefault()
