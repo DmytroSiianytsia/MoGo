@@ -33,7 +33,7 @@ $(function() {
     $this.addClass('active')    
 
     $('html, body').animate({
-      scrollTop: blockOffset - header.innerHeight()
+      scrollTop: blockOffset - header.innerHeight() + 20
     }, 500)
   })
 
